@@ -46,6 +46,7 @@ jobs:
           repository: Plerandase/dep #본인에 맞게 수정
           ref: main  # branch
           token: ${{ secrets.GH_TOKEN }}
+          path: dep  # 중요: 다른 폴더에 체크아웃
       - name: k8s manifest update
         run: |
           sed -i "s@ \
