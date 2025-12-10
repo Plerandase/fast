@@ -49,6 +49,7 @@ jobs:
           path: dep  # 중요: 다른 폴더에 체크아웃
       - name: k8s manifest update
         run: |
+          cd dep
           sed -i "s@ \
           image: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:.*@ \
           image: ${{ env.ECR_REGISTRY }}/${{ env.ECR_REPOSITORY }}:${{ env.IMAGE_TAG }}@g" test-dep.yml
