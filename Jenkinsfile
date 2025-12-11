@@ -11,7 +11,7 @@ pipeline {
         
         GIT_EMAIL = 'Plerandase@naver.com'
         GIT_NAME = 'Plerandase'
-        GIT_REPOSITORY_DEP = 'git@github.com:Plerandase/deployment.git'
+        GIT_REPOSITORY_DEP = 'git@github.com:Plerandase/dep'
 
         // AWS ECR 정보. 본인껄로 넣으세요!!
         AWS_ECR_CREDENTIAL_ID = 'aws_cre'
