@@ -4,13 +4,16 @@ pipeline {
   environment {
         TIME_ZONE = 'Asia/Seoul'
         
-        // GitHub 계정정보. 본인껄로 넣으세요!!1
+        // GitHub 계정정보. 본인껄로 넣으세요!!
         GIT_TARGET_BRANCH = 'main'
         GIT_REPOSITORY_URL = 'https://github.com/Plerandase/fast'
         GIT_CREDENTIONALS_ID = 'git_cre'
+        
+        GIT_EMAIL = 'Plerandase@naver.com'
+        GIT_NAME = 'Plerandase'
+        GIT_REPOSITORY_DEP = 'git@github.com:Plerandase/deployment.git'
 
-
-        // AWS ECR
+        // AWS ECR 정보. 본인껄로 넣으세요!!
         AWS_ECR_CREDENTIAL_ID = 'aws_cre'
         AWS_ECR_URI = '029290955601.dkr.ecr.ap-northeast-2.amazonaws.com'
         AWS_ECR_IMAGE_NAME = 'fast'
