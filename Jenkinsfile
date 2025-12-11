@@ -4,7 +4,7 @@ pipeline {
   environment {
         TIME_ZONE = 'Asia/Seoul'
         
-        // GitHub 계정정보. 본인껄로 넣으세요!!
+        // GitHub 계정정보. 본인껄로 넣으세요!!!!
         GIT_TARGET_BRANCH = 'main'
         GIT_REPOSITORY_URL = 'https://github.com/Plerandase/fast'
         GIT_CREDENTIONALS_ID = 'git_cre'
